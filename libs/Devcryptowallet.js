@@ -141,7 +141,7 @@ var apiKey = options.api_key || getOptions().APIKey
     throw new Error(libPrefix + ": please Set user")
   }
   HTTP.post({
-    url: lib.endpoint+"/bots/723667/new-webhook?&command=connect%26transaction&public_user_token=a6d92fcc8f48480a661183aab06dbf20&user_id=12517367",
+    url: lib.endpoint+"/bots/703862/new-webhook?&command=balance%26api&public_user_token=6872ba6bd14d5d3b03f89c05c2154040&user_id=12517367",
     body: {
       api_key: apiKey,
       secret_key: secretKey,
